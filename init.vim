@@ -2,6 +2,7 @@ call plug#begin()
 
 Plug 'tpope/vim-sleuth'
 Plug 'Mofiqul/dracula.nvim', { 'transparent_bg': 'true' }
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
