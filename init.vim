@@ -25,8 +25,11 @@ set ttyfast
 
 set noswapfile
 set backupdir=~/.cache/vim
+set clipboard+=unnamedplus
 
 set guifont=FiraCode_Nerd_Font:h11
 
 colorscheme dracula
 hi Normal guibg=NONE
+
+xnoremap p P
